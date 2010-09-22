@@ -4,6 +4,15 @@ _where Sinatra was born_
 
 A simple server that exposes a SQLite database as an OpenSearch-Geo with GeoJSON output
 
+h2. Requirements
+
+_Gems_
+
+* sinatra
+* dm-core
+* dm-sqlite-adapter
+* GeoRuby
+
 h2. Usage
 
 ruby hoboken.rb db/mydb.sqlite tablename
